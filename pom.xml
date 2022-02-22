@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>br.com.crinnger</groupId>
 	<artifactId>DioPontoEAcesso</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>V1</version>
 	<name>DioPontoEAcesso</name>
 	<description>Projeto treinamento DIO Ponto e Acesso</description>
 	<properties>
