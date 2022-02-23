@@ -3,3 +3,12 @@ os: linux
 files:
   - source: ./DioPontoEAcesso-V1.jar
     destination: /tmp
+hooks:
+  ApplicationStop:
+    - location: stop.sh
+      timeout: 180
+      runas: root
+  ApplicationStart:
+    - location: run.sh
+      timeout: 180
+      runas: root
